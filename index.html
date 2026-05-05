@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JL Marketing</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial, sans-serif;background:#f4f7fb;color:#333;}
+
+header{
+background:#0a2540;color:white;
+padding:15px 30px;
+display:flex;justify-content:space-between;align-items:center;
+}
+
+nav a{color:white;margin-left:15px;text-decoration:none;}
+
+.hero{
+height:90vh;
+display:flex;flex-direction:column;
+justify-content:center;align-items:center;
+text-align:center;color:white;
+background:linear-gradient(rgba(10,37,64,0.8),rgba(10,37,64,0.8)),
+url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+background-size:cover;
+}
+
+.hero h1{font-size:45px;}
+.hero p{margin:15px 0;}
+
+.btn{
+background:#ff6b00;color:white;
+padding:10px 20px;border-radius:5px;
+text-decoration:none;
+}
+
+section{padding:50px;text-align:center;}
+
+.services{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px;}
+
+.card{
+background:white;padding:20px;
+flex:1;min-width:200px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{transform:translateY(-8px);}
+
+footer{
+background:#0a2540;color:white;
+padding:20px;text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>JL Marketing</h2>
+<nav>
+<a href="#servicos">Serviços</a>
+<a href="#contato">Contato</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Marketing Digital que gera resultados</h1>
+<p>Aumente o seu negócio online</p>
+<a href="#contato" class="btn">Começar</a>
+</div>
+
+<section id="servicos">
+<h2>Serviços</h2>
+<div class="services">
+<div class="card">Gestão de Redes Sociais</div>
+<div class="card">Criação de Websites</div>
+<div class="card">SEO</div>
+<div class="card">Publicidade Online</div>
+</div>
+</section>
+
+<section id="contato">
+<h2>Contato</h2>
+<p>Email: jldigital@gmail.com</p>
+<p>Telefone: +258 84 000 0000</p>
+</section>
+
+<footer>
+<p>© 2026 JL Marketing</p>
+</footer>
+
+</body>
+</html>
